@@ -1,7 +1,7 @@
 Summary:	This package contains sample configuration for nagios
 Name:		nagios-conf
 Version:	3.0
-Release:	%mkrel 1
+Release:	%mkrel 3
 License:	GPL
 Group:		Networking/Other
 URL:		http://www.nagios.org/
