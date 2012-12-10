@@ -51,3 +51,25 @@ rm -rf %{buildroot}
 %defattr(-,root,root)
 %attr(0644,root,root) %config(noreplace) %verify(not size mtime md5) %{_sysconfdir}/nagios/conf.d/sample.cfg
 
+
+
+%changelog
+* Sat Dec 11 2010 Oden Eriksson <oeriksson@mandriva.com> 3.0-5mdv2011.0
++ Revision: 620471
+- the mass rebuild of 2010.0 packages
+
+* Fri Sep 04 2009 Thierry Vignaud <tv@mandriva.org> 3.0-4mdv2010.0
++ Revision: 430148
+- rebuild
+
+* Tue Jul 29 2008 Thierry Vignaud <tv@mandriva.org> 3.0-3mdv2009.0
++ Revision: 253499
+- rebuild
+
+* Wed Jan 30 2008 Oden Eriksson <oeriksson@mandriva.com> 3.0-1mdv2008.1
++ Revision: 160256
+- import nagios-conf
+
+
+* Wed Jan 30 2008 Oden Eriksson <oeriksson@mandriva.com> 3.0-1mdv2008.1
+- initial Mandriva package
