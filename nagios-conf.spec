@@ -4,7 +4,7 @@ Version:	3.0
 Release:	6
 License:	GPL
 Group:		Networking/Other
-URL:		http://www.nagios.org/
+URL:		https://www.nagios.org/
 Source0:	sample.cfg
 Requires:	nagios
 Requires:	nagios-check_disk
